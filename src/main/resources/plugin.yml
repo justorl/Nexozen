@@ -1,0 +1,7 @@
+name: NexoZen
+version: 1.0.0
+main: com.pulse.nexozen.Nexozen
+api-version: '1.21'
+depend: [Denizen, Nexo]
+description: Аддон Denizen с поддержкой Nexo
+author: just_orl
