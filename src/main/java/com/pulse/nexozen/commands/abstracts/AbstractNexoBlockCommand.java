@@ -20,7 +20,7 @@ public abstract class AbstractNexoBlockCommand extends AbstractCommand {
             boolean isPlace
     ) {
         if (location == null) {
-            Debug.echoError(scriptEntry, "Необходимо указать location");
+            Debug.echoError(scriptEntry, "Specify a location");
             return;
         }
 

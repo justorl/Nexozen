@@ -23,13 +23,13 @@ public class Nexozen extends JavaPlugin {
         instance = this;
 
         if (isPluginAvailable("Denizen")) {
-            getLogger().severe("Denizen не найден! Отключение...");
+            getLogger().severe("Denizen is not enabled. Disabling..");
             Bukkit.getPluginManager().disablePlugin(this);
             return;
         }
 
         if (isPluginAvailable("Nexo")) {
-            getLogger().severe("Nexo не найден! Отключение...");
+            getLogger().severe("Nexo is not enabled. Disabling..");
             Bukkit.getPluginManager().disablePlugin(this);
             return;
         }
@@ -48,12 +48,12 @@ public class Nexozen extends JavaPlugin {
         EntityTagExtension.register();
         new NexoItemTagExtension();
 
-        getLogger().info("Nexozen успешно загружен!");
+        getLogger().info("Nexozen successfully loaded");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("Nexozen выключен!");
+        getLogger().info("Nexozen successfully disabled");
     }
 
     public static Nexozen getInstance() {

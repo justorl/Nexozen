@@ -44,7 +44,6 @@ public class NexoFurniturePlaceScriptEvent extends BukkitScriptEvent implements 
     public void onFurnitureInteractEvent(NexoFurniturePlaceEvent event) {
         this.event = event;
         location = new LocationTag(event.getBaseEntity().getLocation());
-        System.out.println("[NexoZen] Furniture place event triggered! ID: " + event.getMechanic().getItemID());
         fire(event);
     }
 } 
