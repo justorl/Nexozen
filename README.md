@@ -20,7 +20,7 @@ Give me a star on github, if you appreciate my work
 
 **-- PLUGIN META --**
 
-<util.get_nexo_item[айдишник]> - itemtag
+<util.get_nexo_item[\<id\>]> - itemtag
 <EntityTag.is_nexofurniture> - true/false
 <LocationTag.is_nexoblock> - true/false
 <LocationTag.is_nexofurniture> - true/false
