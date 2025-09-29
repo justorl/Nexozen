@@ -20,12 +20,12 @@ Give me a star on github, if you appreciate my work
 
 **-- PLUGIN META --**
 
-<util.get_nexo_item[\<id\>]> - itemtag
-<EntityTag.is_nexofurniture> - true/false
-<LocationTag.is_nexoblock> - true/false
-<LocationTag.is_nexofurniture> - true/false
-<LocationTag.get_nexoblock_variation> - ElementTag
-<LocationTag.get_nexoblock_id> - ElementTag
+<util.get_nexo_item[\<id\>]> - itemtag  
+<EntityTag.is_nexofurniture> - true/false  
+<LocationTag.is_nexoblock> - true/false  
+<LocationTag.is_nexofurniture> - true/false  
+<LocationTag.get_nexoblock_variation> - ElementTag  
+<LocationTag.get_nexoblock_id> - ElementTag  
 
 
 \- nexoremove type:furniture/block location:\<LocationTag\>  
