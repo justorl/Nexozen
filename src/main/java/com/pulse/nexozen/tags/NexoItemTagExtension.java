@@ -25,6 +25,7 @@ public class NexoItemTagExtension extends UtilTagBase {
 
     @Override
     public void register() {
-        tagProcessor.registerTag(ItemTag.class, ElementTag.class, "get_nexo_item", (attribute, object, id) -> new ItemTag(Objects.requireNonNull(NexoItems.itemFromId(id.asString())).build()));
+        tagProcessor.registerTag(ItemTag.class, ElementTag.class, "get_nitem", (attribute, object, id) ->
+                new ItemTag(Objects.requireNonNull(NexoItems.itemFromId(id.asString())).build()));
     }
 }
